@@ -1,0 +1,42 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+*.mod
+*.sum
+*.mp4
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go toolchain
+*.out
+
+# Dependency directories (remove the "vendor/" if you want to commit it)
+vendor/
+
+# Go module cache
+.mod/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+thumbs.db
+
+# исполняемые файлы
+cu-bridge
+cu-bridge.exe
+cu-bridge-linux
+cu-bridge-mac
+builds/
+storage/
